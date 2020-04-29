@@ -1,19 +1,53 @@
+ 
 {
     "env": {
-        "es6": true,
-        "node": true
+      "es6": true,
+      "node": true
     },
-    "extends": [
-        "airbnb-base"
-    ],
+    "extends": ["airbnb-base", "prettier"],
     "globals": {
-        "Atomics": "readonly",
-        "SharedArrayBuffer": "readonly"
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly",
+      "__DEV__": true
     },
     "parserOptions": {
-        "ecmaVersion": 2018,
-        "sourceType": "module"
+      "ecmaVersion": 2018,
+      "sourceType": "module"
     },
+    "plugins": ["prettier"],
     "rules": {
+      "import/no-extraneous-dependencies": "off",
+      "import/no-duplicates": "off",
+      "import/extensions": "off",
+      "import/order": "off",
+      "import/no-self-import": "off",
+      "import/no-cycle": "off",
+      "import/no-useless-path-segments": "off",
+      "import/no-named-as-default": "off",
+      "import/no-named-as-default-member": "off",
+      "import/named": "off",
+      "prettier/prettier": ["error"],
+      "react/jsx-filename-extension": "off",
+      "import/prefer-default-export": "off",
+      "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+      "react/jsx-one-expression-per-line": "off",
+      "global-require": "off",
+      "react-native/no-raw-text": "off",
+      "no-param-reassign": "off",
+      "no-underscore-dangle": "off",
+      "camelcase": "off",
+      "no-console": ["error", { "allow": ["tron"] }],
+      "react-hooks/rules-of-hooks": "off",
+      "react-hooks/exhaustive-deps": "off",
+      "import/no-unresolved": "off",
+      "quotes": [
+        2,
+        "single",
+        { "avoidEscape": true, "allowTemplateLiterals": true }
+      ],
+      "class-methods-use-this": "off",
+      "no-restricted-syntax": "off",
+      "no-useless-return": "off",
+      "consistent-return": "off"
     }
-}
+  }

@@ -8,11 +8,11 @@
 <li>Cors</li>
 <li>Helmet</li>
 <li>Express</li>
-<li>Sqlite3</li>
+<li>Pg</li>
 <li>JWT</li>
 <li>DotEnv</li>
 <li>Multer</li>
-<li>Knex</li>
+<li>Sequelize</li>
 </ul>
 
 <h2>Insomnia</h2>

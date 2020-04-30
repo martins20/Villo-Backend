@@ -1,9 +1,18 @@
-import {Router} from 'express'
+import { Router } from 'express';
 
-import IndexController from './app/controllers/IndexController'
+import SessionController from './app/controllers/SessionController';
+import UserController from './app/controllers/UserController';
 
-const routes = new Router()
+import authMiddleware from './app/middlewares/auth';
 
-routes.get('/', IndexController.index)
+const routes = new Router();
+// Rota para Login
+routes.post('/register', UserController.store);
 
-export default routes
+routes.post('/login', SessionController.store);
+
+routes.get('/profile', authMiddleware, UserController.show);
+routes.put('/profile', authMiddleware, UserController.update);
+routes.delete('/profile', authMiddleware, UserController.delete);
+
+export default routes;

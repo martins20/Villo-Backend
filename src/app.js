@@ -1,12 +1,14 @@
 import dotenv from 'dotenv';
 
-dotenv.config();
+import './database';
 
 import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
 
 import routes from './routes';
+
+dotenv.config();
 
 class App {
   constructor() {
@@ -16,7 +18,7 @@ class App {
   }
 
   middlewares() {
-    //cors is Enabled from all ip's
+    // cors is Enabled from all ip's
     this.app.use(cors());
     this.app.use(helmet());
     this.app.use(express.json());

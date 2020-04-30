@@ -1,4 +1,5 @@
 import dotenv from 'dotenv';
+import path from 'path';
 
 import './database';
 
@@ -22,6 +23,10 @@ class App {
     this.app.use(cors());
     this.app.use(helmet());
     this.app.use(express.json());
+    this.app.use(
+      '/files',
+      express.static(path.resolve(__dirname, '..', 'temp', 'uploads'))
+    );
   }
 
   routes() {

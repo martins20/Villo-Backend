@@ -1,13 +1,21 @@
 import User from '../models/User';
+import Photo from '../models/File';
 
 class UserController {
   async show(req, res) {
     try {
       const { userId } = req;
 
-      const { id, name, age, email, phone } = await User.findByPk(userId);
+      const user = await User.findByPk(userId, {
+        attributes: ['id', 'name', 'age', 'email', 'phone'],
+        include: {
+          model: Photo,
+          attributes: ['id', 'path', 'url'],
+          as: 'photo',
+        },
+      });
 
-      return res.json({ id, name, age, email, phone });
+      return res.json(user);
     } catch (err) {
       return res.status(401).json({ error: 'token not provided' });
     }

@@ -30,6 +30,11 @@
 <strong>Edit | Delete</strong>
 <img src="https://github.com/martins20/Villo-Backend/blob/newMaster/assets/Edit|Delete.gif" alt="Edit|Delete">
 
+<strong>Uploading a Photo</strong>
+<img src="https://github.com/martins20/Villo-Backend/blob/newMaster/assets/CreatePhoto.gif" alt="CreatePhoto">
+
+<strong>Edit | Delete a Photo</strong>
+<img src="https://github.com/martins20/Villo-Backend/blob/newMaster/assets/Edit|DeletePhoto.gif" alt="Edit|Delete Photo">
 
 ## How to run
 

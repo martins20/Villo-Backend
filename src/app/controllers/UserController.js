@@ -6,8 +6,7 @@ class UserController {
     try {
       const { id } = req.params;
 
-      const user = await User.findOne({
-        id,
+      const user = await User.findByPk(id, {
         attributes: ['id', 'name', 'age', 'email', 'phone', 'friends'],
         include: {
           model: Photo,

@@ -33,9 +33,14 @@
 <strong>Uploading a Photo</strong>
 <img src="https://github.com/martins20/Villo-Backend/blob/newMaster/assets/CreatePhoto.gif" alt="CreatePhoto">
 
-<strong>Edit | Delete a Photo</strong>
-<img src="https://github.com/martins20/Villo-Backend/blob/newMaster/assets/Edit|DeletePhoto.gif" alt="Edit|Delete Photo">
+<strong>List of Friends</strong>
+<img src="https://github.com/martins20/Villo-Backend/blob/newMaster/assets/FriendList.gif" alt="FriendList">
 
+<strong>Create a Friend</strong>
+<img src="https://github.com/martins20/Villo-Backend/blob/newMaster/assetsCreateFriend.gif" alt="CreateFriend">
+
+<strong>Delete a Friend</strong>
+<img src="https://github.com/martins20/Villo-Backend/blob/newMaster/assets/DeleteFriend.gif" alt="DeleteFriend">
 ## How to run
 
 <b>Clone the project</b>

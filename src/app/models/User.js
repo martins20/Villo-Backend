@@ -67,10 +67,6 @@ export default class User extends Model {
     this.addHook('beforeSave', async (user) => {
       if (user.password)
         user.password_hash = await bcrypt.hash(user.password, 4);
-    });
-
-    // Gera uma MD5 Aleatoria para o ID
-    this.addHook('beforeSave', async (user) => {
       user.id = await crypto.randomBytes(20).toString('HEX');
     });
 

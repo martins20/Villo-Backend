@@ -3,8 +3,9 @@ import databaseConfig from '../config/database';
 
 import User from '../app/models/User';
 import File from '../app/models/File';
+import Conversation from '../app/models/Conversation';
 
-const models = [User, File];
+const models = [User, File, Conversation];
 
 const connection = new Sequelize(databaseConfig);
 

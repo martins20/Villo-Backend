@@ -11,7 +11,7 @@ class File extends Model {
         user_id: {
           type: Sequelize.STRING,
           unique: {
-            msg: 'User Alredy has one Phonto.',
+            msg: 'User already has one photo.',
           },
         },
         url: {

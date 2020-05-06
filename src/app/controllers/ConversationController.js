@@ -24,12 +24,12 @@ class ConversationController {
         ],
       });
 
-      const { user_id } = chat;
-
       if (!chat)
         return res
           .status(404)
           .json({ error: 'cannot find this conversation.' });
+
+      const { user_id } = chat;
 
       if (userId && user_id)
         return res

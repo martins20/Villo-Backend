@@ -37,10 +37,19 @@
 <img src="https://github.com/martins20/Villo-Backend/blob/newMaster/assets/FriendList.gif" alt="FriendList">
 
 <strong>Create a Friend</strong>
-<img src="https://github.com/martins20/Villo-Backend/blob/newMaster/assetsCreateFriend.gif" alt="CreateFriend">
+<img src="https://github.com/martins20/Villo-Backend/blob/newMaster/assets/CreateFriend.gif" alt="CreateFriend">
 
 <strong>Delete a Friend</strong>
 <img src="https://github.com/martins20/Villo-Backend/blob/newMaster/assets/DeleteFriend.gif" alt="DeleteFriend">
+
+<strong>List | Show a Conversation</strong>
+<img src="https://github.com/martins20/Villo-Backend/blob/newMaster/assets/List|ShowConversation.gif" alt="List|Show Conversation">
+
+<strong>Create a Conversation</strong>
+<img src="https://github.com/martins20/Villo-Backend/blob/newMaster/assets/CreateConversation.gif" alt="CreateConversation">
+
+<strong>Edit | Delete a Conversation </strong>
+<img src="https://github.com/martins20/Villo-Backend/blob/newMaster/assets/Edit|DeleteConversatio.gif" alt="Edit|Delete Conversatio">
 ## How to run
 
 <b>Clone the project</b>

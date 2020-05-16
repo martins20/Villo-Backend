@@ -49,7 +49,7 @@
 <img src="https://github.com/martins20/Villo-Backend/blob/newMaster/assets/CreateConversation.gif" alt="CreateConversation">
 
 <strong>Edit | Delete a Conversation </strong>
-<img src="https://github.com/martins20/Villo-Backend/blob/newMaster/assets/Edit|DeleteConversatio.gif" alt="Edit|Delete Conversatio">
+<img src="https://github.com/martins20/Villo-Backend/blob/newMaster/assets/Edit|DeleteConversation.gif" alt="Edit|Delete Conversatio">
 ## How to run
 
 <b>Clone the project</b>

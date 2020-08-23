@@ -9,7 +9,7 @@
 <li>Helmet</li>
 <li>Express</li>
 <li>Pg</li>
-<li>JWT</li>
+<li>JWT</li> 
 <li>DotEnv</li>
 <li>Multer</li>
 <li>Sequelize</li>
